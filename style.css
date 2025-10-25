@@ -105,7 +105,7 @@ nav ul li a:hover {
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .hideOnMobile {
         display: none;
     }
@@ -124,6 +124,13 @@ section {
     margin: auto;
     display: flex;
     margin-bottom: 50px;
+}
+
+img {
+    max-width: 1024px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .kolom{
@@ -332,7 +339,7 @@ p {
     margin-top: -35px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .card-wrapper {
         margin: 0 10px 25px;
     }
@@ -342,7 +349,7 @@ p {
     }
 }
 
-.wa-btn {
+/*.wa-btn {
     position: fixed;
     right: 50px;
     bottom: 100px;
@@ -368,7 +375,7 @@ p {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     align-items: center;
-}
+}*/
 
 #contact {
     background: grey;
