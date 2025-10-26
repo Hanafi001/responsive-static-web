@@ -10,7 +10,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: #ECEFFE;
+    background: #FAF8F1;
 }
 
 .wrapper {
@@ -48,7 +48,9 @@ nav ul {
     width: 50px;
     position: absolute;
     top: 50%;
+    left: 10%;
     transform: translate(-50%, -50%);
+    margin: 0;
 }
 
 nav ul li {
@@ -433,10 +435,9 @@ h3 {
 #copyright {
     text-align: center;
     width: 100%;
-    padding: 30px 0;
+    padding: 10px 0;
     background: #ECEFFE;
     font-size: 14px;
-    margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {

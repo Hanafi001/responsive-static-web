@@ -34,3 +34,11 @@ function showSidebar() {
             const sidebar = document.querySelector('.sidebar');
             sidebar.style.display = 'none';
         }
+
+var menuItems = document.querySelectorAll('.sidebar');
+menuItems.forEach(function(item) {
+  item.addEventListener('click', function() {
+    hideSidebar();
+  });
+});
+
